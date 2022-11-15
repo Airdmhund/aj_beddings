@@ -1,0 +1,29 @@
+.bbaj_logo{
+    width: 80px;
+    height: 60px;
+}
+.dashboard{
+    display: flex;
+    justify-content: space-around;
+    color:#F1A716;
+    background-color: #050233;
+
+}
+
+.second_div{
+    background-image:url(plain.jpg);
+    background-size: cover;
+    text-align: center;
+    background: #F1A716;
+
+}
+
+.order_button{
+    background-color: #050233;
+    border-radius: 5px;
+    width: 6pc;
+    height: 6vh;
+    color:#F1A716;
+    border: none;
+    cursor: pointer; 
+}

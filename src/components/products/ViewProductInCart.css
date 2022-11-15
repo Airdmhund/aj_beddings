@@ -1,0 +1,66 @@
+.polish{
+    width: 200px;
+    height: 200px;
+}
+.delete_pic{
+    width: 30px;
+    height: 30px;
+    filter: invert(77%) sepia(56%) saturate(3080%)
+     hue-rotate(353deg) brightness(100%) contrast(89%);
+     cursor: pointer;
+}
+
+.product_in_cart{
+display: flex;
+justify-content:space-evenly;
+padding-top: 5%;
+}
+
+.dropdown_button{
+    width: 2vw;
+    height: 5vh;
+    margin-bottom: 10%;
+    justify-content: center;
+    margin-top: 2%;
+    background-color: #F1A716;
+    border: unset;
+    border-radius: 15%;
+  
+}
+
+.price_and_drop_button{
+    display: flex;
+    justify-content: space-between;
+    width: 6%;
+    cursor: pointer;
+}
+
+.last_part_div{
+    width: 100%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 10%;
+
+}
+
+.last_part_button{
+    background-color:#F1A716;
+    border-radius: 10px;
+    border: none;
+    width: 30vw;
+    height: 6vh;
+    color:#FFFFFFD9;
+    cursor: pointer;
+}
+
+.checkout_button_div{
+    /* float: left; */
+    width: 10vw;
+   padding-right: 80%;
+
+}

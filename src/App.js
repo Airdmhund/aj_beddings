@@ -1,24 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from './components/landingPage/Home';
+import Products from './components/products/Products';
+import BedsizeDropDown from './components/products/BedsizeDropDown';
+import ViewAproduct from './components/products/ViewAproduct';
+import ViewProductInCart from './components/products/ViewProductInCart';
+import {BrowserRouter,Routes, Route} from 'react-router-dom'
+import Billing from './components/products/Billing';
+
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   
+     <BrowserRouter>
+      <div className="App">
+      {/* <Home/>  */}
+      <Products/>
+      <ViewAproduct/>
+      {/* <ViewProductInCart/> */}
+      <Billing/>
+      </div>
+    
+      <Routes>
+      <Route path="/" element={<Home />} />
+            <Route path="/products" element={<Products />} />
+            <Route path="/viewAproduct" element={<ViewAproduct/>} />
+            <Route path="/viewProductInCart" element={<ViewProductInCart />} />
+            <Route path="bedSizeDropDown" element={<BedsizeDropDown/>} />
+            <Route path="/billingInformation" element={<Billing/>} />
+      
+
+      
+    
+      </Routes>
+      
+  </BrowserRouter>
+
+
   );
 }
 

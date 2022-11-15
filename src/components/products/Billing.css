@@ -1,0 +1,46 @@
+/* .billing_input{
+background-color: #FFFFFFD9;
+background-position: 12pt 12pt;
+background-repeat: no-repeat; 
+background-size: 12pt;
+border:1px solid #F1A716;
+height: 5vh;
+width: 15vw;
+border-radius: 4px;
+padding: 0px 10px;
+margin-bottom: 5%;
+} */
+.input_and_label_div{
+  height: 10%;
+  width: 60vw;
+  display:flex;
+  justify-content: space-evenly;
+  
+ 
+ 
+}
+.inner_div{
+  width: 50vw;
+  display: block;
+  
+ 
+}
+  .general_div{
+  color:#050233;
+  
+ 
+}
+/* input[type=text],select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 4px 0;
+  display:inline-block;
+  border: 2px solid #f1a716;
+  border-radius: 4px;
+  box-sizing: border-box;
+ 
+  
+} */
+input[type=text]:focus {
+  background-color: rgb(168, 169, 166);
+}
